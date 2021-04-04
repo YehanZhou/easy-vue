@@ -1,6 +1,6 @@
 function Observe(obj, key, value) { // 观察者，数据拦截，加getter，setter
     const dep = new Dep()
-    if(Object.prototype.toString.call(value) === '[object objest]') {
+    if(Object.prototype.toString.call(value) === '[object object]') {
         Object.keys(value).forEach(k => {
             new Observe(value, k, value[k])
         })

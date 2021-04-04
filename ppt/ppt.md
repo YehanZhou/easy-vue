@@ -1,5 +1,5 @@
 ---
-theme : "night"
+# theme : "night"
 transition: "slide"
 highlightTheme: "monokai"
 logoImg: "logo.png"
@@ -130,6 +130,7 @@ vue中的MVVM
 ### 2. 订阅发布
 
 发布—订阅模式又叫观察者模式，它定义对象间的一种一对多的依赖关系，当一个对象的状态发生改变时，所有依赖于它的对象都将得到通知。
+[JavaScript设计模式与开发实践 发布—订阅模式](https://weread.qq.com/web/reader/6bf3215071a123016bf0b74k0723244023c072b030ba601)
 
 --
 
@@ -207,12 +208,6 @@ function defineReactive (obj,key,val) {
   })
 }
 ```
-
-
----
-
-### 数组的变化侦测
-
 
 ---
 
